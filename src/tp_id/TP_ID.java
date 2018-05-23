@@ -16,6 +16,7 @@ public class TP_ID {
      */
     public static void main(String[] args) {
          System.out.println("INVALIDO por DTD");
+         System.out.println("INVALIDO por DTD");
     }
     
 }
