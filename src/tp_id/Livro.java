@@ -20,6 +20,10 @@ class Livro {
    BufferedImage FotoCapa;  
    int ano;
 
+    Livro(String nome) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public int getIsbn() {
         return isbn;
     }
