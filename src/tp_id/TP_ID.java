@@ -5,18 +5,23 @@
  */
 package tp_id;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author a21250195
  */
 public class TP_ID {
 
-    /**
-     * @param args the command line arguments
-     */
+    public static ArrayList<Livro> procuraArtigosWook(String autor){
+           return null;
+            
+    }
+        
     public static void main(String[] args) {
-         System.out.println("INVALIDO por DTD");
-         System.out.println("INVALIDO por DTD");
+         String pesquisa = "Oscar Wilde";
+      ArrayList<Livro> res = new ArrayList();
+      res = procuraArtigosWook(pesquisa);
     }
     
 }
